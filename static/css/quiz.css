@@ -28,12 +28,12 @@ section{
 	min-height: 400px;
 }
 footer{
-	background: green;
+	background: rgb(9, 15, 9);
 	text-align: center;
 }
 input[type = 'submit']{
 	width: 60%;
-	background: green;
+	background: rgb(9, 19, 9);
 	border:0;
 	color: white;
 	padding: 10px 15px;
