@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 
-def index(request):
+def base(request):
 	return render(request, 'base.html')
 
 def index(request):
