@@ -16,7 +16,8 @@
 
 		<section>
 			<div id = "results"></div>
-			<form name = "quizForm" onsubmit = "return submitAnswers(answers = [{% for q in questions %}'{{ q.answer }}',{% endfor %}])">
+			<form name = "quizForm" onsubmit = "return submitAnswers(answers = [{% for q in questions %}
+				'{{ q.answer }}',{% endfor %}])">
 			{% for q in questions %}
 				<h3> {{ q.id }}.  {{ q.question }}</h3>
 				<input type = "radio" name = "q{{ q.id }}" value = "a" id = "q1a">   a. {{ q.option1 }}<br><br>
