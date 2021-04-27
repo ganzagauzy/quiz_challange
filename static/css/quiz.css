@@ -58,10 +58,10 @@ input[type = 'radio']{
     display: block;
     width: 95%;
     height: 25px;
-    background: rgb(18, 33, 66);
+    background: rgb(8, 12, 20);
     padding: 20px;
     text-align: center;
     border-radius: 5px;
-    color: rgb(104, 101, 101);
+    color: rgb(161, 160, 160);
     font-weight: bold;
 }
