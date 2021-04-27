@@ -1,5 +1,5 @@
 body{
-	background: darkgrey;
+	background: rgb(7, 7, 7);
 	color:white;
 	font-family: 'Arial', sans-serif;
 	font-size: 14px;
@@ -58,7 +58,7 @@ input[type = 'radio']{
     display: block;
     width: 95%;
     height: 25px;
-    background: skyblue;
+    background: rgb(18, 33, 66);
     padding: 20px;
     text-align: center;
     border-radius: 5px;
