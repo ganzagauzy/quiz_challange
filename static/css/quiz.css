@@ -6,7 +6,7 @@ body{
 }
 #container{
 	width: 60%;
-	background: darkblue;
+	background: rgb(11, 11, 24);
 	margin: 20px auto;
 	overflow: auto;
 	padding: 25px;
