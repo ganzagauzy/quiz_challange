@@ -6,7 +6,7 @@ from quizapi import views
 
 urlpatterns = [
 
-	url(r'^$', index_views.index, name='base'),
+	url(r'^$', index_views.base, name='base'),
 	url(r'^index/$', index_views.index, name='index'),
 	url(r'^login/$', index_views.login),
 	url(r'^questions/', include('quiz.urls')),
