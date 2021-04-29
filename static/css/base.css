@@ -1,0 +1,86 @@
+body{
+    background-image: url(static/imgages12.png);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+h1{
+    background-color: #000;
+    margin-right: 14%;
+    margin-left: 76%;
+    
+    font-size: x-large;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.lead {
+    background-color: rgb(6, 3, 20);
+    margin-right: 73%;
+    margin-left: 1%;
+    
+   
+    color: white;
+    font-size: large;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 0.7;
+    word-spacing: 5px;
+
+
+}
+a{
+    color: rgb(8, 207, 25);
+}
+a:hover {
+    color: rgb(2, 137, 255);
+}
+a:visited {
+    color: rgb(223, 202, 20);
+}
+a:active {
+    color: rgb(190, 180, 34);
+}
+.container {
+
+    margin-left: 60%;
+    margin-right: 2%;
+    border: #000;
+    contain: content;
+    contain: style;
+    background-color: rgb(8, 1, 15);
+   
+    color: white;
+    font-size: large;
+    
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 0.6;
+    word-spacing: 5px;
+}
+.display-3{
+    background-color: #000;
+    margin-left: 4%;
+    margin-right: 84%;
+}.small{
+    margin-bottom: 2%;
+}
+.marquee{
+    margin-left: 45%;
+    text-align: center;
+    text-shadow: rgb(22, 1, 14);
+
+    font-size: x-large;
+    color: white;
+}
+.marquee1{
+    margin-top: 1%;
+    margin-left: 45%;
+    text-align: center;
+    text-shadow: rgb(22, 1, 14);
+
+    font-size: x-large;
+    color: white;
+}
+
