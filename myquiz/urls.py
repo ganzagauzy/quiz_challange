@@ -8,7 +8,7 @@ urlpatterns = [
 
 	
 	url(r'^$', index_views.index, name='index'),
-	url(r'^home/$', index_views.home, name='home'),
+	url(r'^plus/$', index_views.plus, name="plus"),
 	url(r'^login/$', index_views.login),
 	url(r'^questions/', include('quiz.urls')),
 	url(r'^quizapi/', views.QuizApiList.as_view()),
